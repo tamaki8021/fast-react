@@ -1,5 +1,7 @@
 import React from 'react';
-import Article from './Article'
+import Article from './Article';
+import * as FooBar from './component/FooBar';
+import Hoge from './component/Hoge';
 
 class Blog extends React.Component {
   constructor(props) {
@@ -53,6 +55,10 @@ class Blog extends React.Component {
           title={"環境構築をしてみよう"}
           order={6}
         /> */}
+
+        <FooBar.Foo />
+        <FooBar.Bar />
+        <Hoge />
       </>
     )
   }
