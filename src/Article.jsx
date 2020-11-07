@@ -1,5 +1,5 @@
 import React from 'react';
-import Likebutton from "./Likebutton";
+import Likebutton from "./Likebutton"
 
 const Article = (props) => {
   // let publishState = "";
