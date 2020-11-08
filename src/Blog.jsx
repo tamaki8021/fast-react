@@ -4,6 +4,7 @@ import * as FooBar from './component/FooBar';
 import Hoge from './component/Hoge';
 
 const Blog = () => {
+  //クラスコンポーネントのライフサイクル
   // componentDidMount() {
   //   //ボタンがクリックされたいいねをカウントアップする
   //   document.getElementById('counter').addEventListener('click', this.countUp)
